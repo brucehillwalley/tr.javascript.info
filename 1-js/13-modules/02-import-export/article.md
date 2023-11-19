@@ -185,7 +185,7 @@ export *!*default*/!* class User { // sadece "default" ekle
 
 ```js
 // 📁 main.js
-import *!*User*/!* from './user.js'; // {User} değir, sadece User
+import *!*User*/!* from './user.js'; // {User} değil, sadece User
 
 new User('John');
 ```
